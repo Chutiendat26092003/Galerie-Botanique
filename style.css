@@ -1,0 +1,49 @@
+section, article, figure, figcaption {
+    display: inline;
+}
+body{
+    font-family: Georgia, Times, serif;
+    background-image: url("images/backdrop.gif");
+    background-position: center;
+    margin: 0px auto;
+    height: 800px;
+    width: 900px;
+}
+header{
+    background-image: url("images/title.gif");
+    width: 456px;
+    height: 122px;
+    text-align: center;
+    margin: 50px auto ;
+    float: both;
+}
+header h1{
+    text-indent: -9999px;
+    width: 400px;
+    height: 120px;
+    margin: 0px;
+}
+header p{
+    /*width: 480px;*/
+}
+section{
+    margin:0px auto;
+}
+
+figure{
+    float: left;
+    padding: 9px;
+    margin: 10px 10px 15px 10px;
+    border: 0px solid #eeeeee;
+    background-color: #ecece0;
+    width: 200px;
+    height: 170px;
+
+}
+figcaption{
+    font-siz: 90%;
+    padding-left: 20px;
+    background-image: url("images/icon.png");
+    background-repeat: no-repeat ;
+    text-align: left;
+}
